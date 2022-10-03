@@ -9,6 +9,6 @@ const initialState = {
 function rootReducer (state=initialState, action){
     return state
 }
-const stor =createStore(rootReducer)
+const store =createStore(rootReducer)
 
-console.log(stor.getState())
+console.log(store.getState())
