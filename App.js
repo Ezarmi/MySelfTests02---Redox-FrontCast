@@ -11,4 +11,6 @@ function rootReducer (state=initialState, action){
 }
 const store =createStore(rootReducer)
 
-console.log(store.getState())
+// console.log(store.getState())
+
+store.dispatch({ type: "" })
